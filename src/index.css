@@ -1,0 +1,45 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+}
+html {
+  scroll-behavior: smooth;
+
+}
+body {
+  background-color: #4c4c4c;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat( 4, auto);
+  gap:1rem;
+  padding: 1rem;
+}
+.product {
+  background-color: #277BC0;
+}
+.product__lower {
+  padding: 0.8rem;
+}
+button {
+  display: grid;
+  grid-template-rows: auto auto;
+  background-color:orange;
+  border-radius: 15%;
+  padding: 0.5rem;
+  gap: 1rem;
+}
